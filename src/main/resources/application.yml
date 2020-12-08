@@ -1,0 +1,11 @@
+spring:
+  main:
+    banner-mode: off
+  h2.console:
+    enabled: true
+    path: '/console'
+  datasource:
+    url: 'jdbc:h2:file:D:\StewardPBF\Steward-server\server-db'
+  jpa:
+    hibernate:
+      ddl-auto: update
